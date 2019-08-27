@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family:'Roboto', sans-serif;
+    background: rgb(245, 227, 239);
+    margin: 10px;
+    padding: 10px;
+}
+
+.main{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr 80px;
+
+
+}
+
+/* menu */
+.menu{
+    display: flex;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menu h1{
+    text-align: center;
+    
+}
+/* style figures */
+.form{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.form > img{
+    margin-left: 10px;
+    width: 70px;
+}
+
+
+  /* colores forma */
+.color{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}
+.color > div{
+    margin-left: 10px
+}
+.color .c-red {
+    
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+ }
+ .color .c-blue {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(0, 38, 255);
+ }
+ .color .c-yellow {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgba(251, 255, 0, 0.835);
+ }
+ .color .c-green {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(60, 255, 0);
+ }
+
+ /* numeros */
+.number{
+    display: flex;
+    border: 1px solid red;
+    align-items: center;
+    justify-content: center;
+   
+     
+}
+.number> span{
+    margin-left: 10px;
+}
+.number span p{
+    font-size: 80px;
+}
+
+ /* boton */
+ 
+ .boton{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .but-b{
+    background-color: rgb(233, 3, 195);
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .but-b:hover {
+    background-color: rgb(145, 5, 126);
+  }
+  /* footer */
+
+
+  .footer{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+  }
+
+  .footer>h5{
+    margin: 0px 20px;
+  }
+  /* @media (mx-width: 700px){
+
+  } */
