@@ -44,15 +44,15 @@ body{
 
 
   /* colores forma */
-.color{
+.carousel{
     display: flex;
     align-items: center;
     justify-content: center;
     border: 1px solid red;
 }
 #imagen {
-    width: 400px;
-    height: 400px;
+    width: 80px;
+    height: 80px;
     background-size: cover;
 }
 
