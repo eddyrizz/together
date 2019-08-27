@@ -20,7 +20,7 @@ body{
 /* menu */
 .menu{
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     justify-content: center;
     align-items: center;
     
@@ -31,7 +31,7 @@ body{
 }
 /* style figures */
 .form{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +48,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 #imagen {
     width: 80px;
@@ -59,7 +59,7 @@ body{
  /* numeros */
 .number{
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     align-items: center;
     justify-content: center;
    
@@ -75,7 +75,7 @@ body{
  /* boton */
  
  .boton{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,7 +96,7 @@ body{
 
 
   .footer{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
